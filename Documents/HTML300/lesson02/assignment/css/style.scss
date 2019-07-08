@@ -1,0 +1,9 @@
+//Import partials here.
+@import 'base.normalize';
+@import 'settings.variables';
+//Contains the variables that are needed for things such as color and font.
+@import 'settings.responsive';
+@import 'components.content';
+//Import gathered that contains the "guts" for the CSS, and to design the employee badge.
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap)
+//Link for the font style used for the employee badge.
