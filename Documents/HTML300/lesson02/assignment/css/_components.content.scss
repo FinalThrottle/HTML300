@@ -1,0 +1,41 @@
+html {
+    font-family: $font-stack;
+//Variable 1, used to set the font for the employee badge - found in the settings.variable.scss file.
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $black;
+}
+//Variable 2, to make the color of H1 black, rather than the default of red.
+
+.main {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+  &_h1 {
+    text-align: center;
+//Nesting 1.
+  }
+  &_img {
+    border-radius: 50%;
+    width: 180px;
+    height: auto
+  }
+//Nesting 2.
+}
+//Used nesting here as H1 and IMG were under the class, "main". This allowed for a more "cleaner" look.
+
+.section {
+  margin-left: 6rem;
+  background-color: $gray;
+  width: 500px;
+  height: 280px;
+}
+
+li {
+  list-style: none;
+//To clear the bullet points when listing the things such as company, experience, school, etc.
+}
