@@ -54,7 +54,7 @@ const employee = [
     }
    ]
 ]
-
+//Creates a new array with the results of calling a function for every array element
 employee.map (function(el) {
   let employee =
     <article class="employee">
