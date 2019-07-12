@@ -1,17 +1,36 @@
-html {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Lesson 02 - Assignment 02!</title>
+    </head>
+    <body>
+        <main class="main">
+          <div class="main_h1">
+            <img src="img/unsplash-headshot.jpg" class="main_img" alt="A headshot of Steve Smith.">
+            <h1><strong>Steve Smith</strong></h1>
+            <em>Project Manager</em>
+          </div>
 
-*,
-*:after,
-*:before {
-    box-sizing: inherit;
-}
+          <div class="section">
+                <ul
+                    <li><br><strong>Company:</strong> Front End Dev Co</li>
 
-.main {
-    padding: 2rem;
-}
+                    <li><br><strong>Experience:</strong> 3 Years</li>
 
-h1 {
-    color: $red;  
-}
+                    <li><br><strong>School:</strong> UW</li>
+
+                    <li><br><strong>Major:</strong> Marketing</li>
+
+                    <li><br><strong>Email:</strong> steve@fedc.com</li>
+
+                    <li><br><img src="img/linkedin.svg" alt="LinkedIn's signature logo."> steve.linkedinprofile.com</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
