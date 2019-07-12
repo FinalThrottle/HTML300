@@ -4,7 +4,7 @@ const employee = [
       "name": "Steve Smith",
       "jobTitle": "Project Manage",
       "company": "Front End Dev Co",
-      "experience": "3 years",
+      "experience": "3 years.",
       "school": "UW",
       "major": "Marketing",
       "email": "steve@fedc.com",
