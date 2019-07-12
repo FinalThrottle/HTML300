@@ -1,15 +1,7 @@
-//Colors - Used $black as a variable for the employee badge, within the content.scss file.
-$gray: #f6f5f6;
-$white: #ffffff;
-$black: #000000;
-$green: #7acb00;
-$pink: #ff0097;
-$red: #F1352B;
-$orange: #ff6600;
-$yellow: #ffb617;
-$robins: #01c1d6;
-$purple: #6e27c5;
-$blue: #150f96;
-
-// Font styles from Google Fonts.
-$font-stack: 'Montserrat', sans-serif;
+// Import partials here
+@import 'base.normalize';
+@import 'settings.variables';
+@import 'settings.responsive';
+@import 'components.content';
+@import url ('https://fonts.googleapis.com/css?family=Montserrat&display=swap')
+//Added an import URL to use the Montserrat font from Google Fonts.
