@@ -1,0 +1,94 @@
+// Mixins
+@mixin verticle{
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+//Using variables in the 'KeyFrames' for that transition of color of the back of the card.
+@keyframes change {
+//Used variables from the __variables.scss file.
+from {background-color: $kitana-blue;}
+to {background-color: $royal-storm;}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  border-radius: 2em;
+  height: 300px;
+  width: 500px;
+}
+
+.card {
+  background-color: transparent;
+  height: 300px;
+  width: 500px;
+  perspective: 1200px;
+  position: absolute;
+  left: 30%;
+  text-align: center;
+
+  //Nesting to condense coding, and make everything look neater using SCSS.
+
+  &_img {
+    border-radius: 2em;
+    height: 300px;
+    width: 500px;
+  }
+
+  &_transition {
+    border-radius: 2em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+//Mixin derived from above, for creating the animation effect.
+    @include verticle;
+  }
+
+  &_front {
+    background-color: #bbb;
+    color: black;
+    cursor: crosshair;
+  }
+
+  &_back {
+    background-color: gray;
+    animation-name: change;
+    animation-duration: 8s;
+    animation-direction: normal;
+    color: white;
+    cursor: crosshair;
+    transform: rotatex(180deg);
+  }
+}
+
+.card:hover .card_transition {
+  transform: rotateX(180deg);
+}
+
+.card_front, .card_back {
+  border-radius: 2em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
