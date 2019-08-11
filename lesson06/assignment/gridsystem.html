@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Assignment 06 - Bootstrap 4</title>
+  <!-- The links and scripting for Bootstrap. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+    <!-- Was listening to this song while starting the project. Enjoy the lyrics. -->
+      <h1>Shiki no Uta (Song of the Seasons)</h1>
+    </div>
+
+    <div class="container">
+      <!-- Bootstrap has an implemented navigation bar, using stylizations to make it 'dark'.
+      The navigation bar will also only expand on larger screens, otherwise there is a 'hamburger'
+      icon that is displayed on smaller screens. -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Creates an inline list, meaning that the links will compile in one line. -->
+        <ul class="list-inline" style="padding: 2rem;">
+          <!-- Links -- also utilizes 'ToolTip', which are informational messages.-->
+          <li class="list-inline-item"><a href="index.html" data-toggle="tooltip" data-placement="left" title="Transports you back to the home page.">Home</a></li>
+          <li class="list-inline-item"><a href="images.html" data-toggle="tooltip" data-placement="top" title="Open your eyes to a world of visuals.">Images</a></li>
+          <li class="list-inline-item"><a href="accordion.html" data-toggle="tooltip" data-placement="bottom" title="A page where you click on something, and it expands.">Accordion</a></li>
+          <li class="list-inline-item"><a href="gridsystem.html" data-toggle="tooltip" data-placement="right" title="A page utilizing Bootstrap's grid system.">Grid</a></li>
+        </ul>
+      </nav>
+    </div>
+
+      <div class="container">
+       <!-- This allows for the whole table to be set in a row. The padding is to align with the navigation bar. -->
+       <div class="row" style="padding: 1rem;">
+         <!-- When the screen goes from small and beyond, it should be evenly placed. As <thead>
+           screen were to get smaller, the table should be stacked in a vertical column. -->
+         <div class="col-lg-12 col-md-12 col-sm-12">
+           <h2>Fall - Leaves</h2>
+           <p>Lorem ipsum dolor amet schlitz lomo man bun, vice blue bottle messenger bag lumbersexual kombucha. Freegan fingerstache keffiyeh, photo booth health goth artisan sartorial fanny pack venmo offal truffaut irony. Poke pour-over kale chips beard hoodie tousled. Paleo art party try-hard woke. Occupy glossier YOLO la croix. Selfies cold-pressed coloring book +1, squid 8-bit paleo knausgaard tofu microdosing health goth snackwave bespoke chia banjo. Biodiesel echo park stumptown pitchfork prism thundercats af VHS small batch.</p>
+         </div>
+         <div class="col-lg-12 col-md-12 col-sm-12 bg-info">
+           <h2>Winter - Snow</h2>
+           <p>Lomo tousled unicorn williamsburg trust fund lumbersexual banh mi mlkshk af meggings kinfolk. Synth disrupt iceland iPhone intelligentsia umami pabst YOLO hammock forage, heirloom tbh swag vexillologist. Biodiesel tumblr yuccie kinfolk mustache. Typewriter master cleanse vexillologist kinfolk, green juice slow-carb kale chips heirloom cloud bread thundercats food truck fixie. Coloring book kickstarter mlkshk truffaut. Gentrify whatever kale chips tattooed VHS, hell of photo booth butcher austin taiyaki. 3 wolf moon hammock yr vaporware organic, dreamcatcher authentic farm-to-table activated charcoal shaman.</p>
+         </div>
+         <div class="col-lg-12 col-md-12 col-sm-12 bg-success">
+           <h2>Spring - Flowers</h2>
+           <p>Hammock cred XOXO, direct trade lumbersexual hoodie snackwave polaroid adaptogen. Beard four dollar toast vinyl, food truck keffiyeh af ugh. Man braid tilde knausgaard succulents synth, migas raw denim try-hard stumptown crucifix. Umami jean shorts retro, four dollar toast stumptown jianbing meggings vice bitters.</p>
+         </div>
+       </div>
+    </div>
+
+  </main>
+  <!-- The script for 'ToolTip'. For some reason, it only works if it's placed here. -->
+  <script src="demo.js" charset="utf-8"></script>
+</body>
+
+</html>
