@@ -2,7 +2,7 @@
 <div class="home">
 
   <div id="app">
-    <button type="button" name="button" v-on:click="show = !show">Hit Me with Your Best Shot</button>
+    <button type="button" name="button" v-on:click="show = !show">Just Hit Me with Your Best Shot</button>
     <p v-if="show">Why don't you hit me with your best shot?</p>
   </div>
 
