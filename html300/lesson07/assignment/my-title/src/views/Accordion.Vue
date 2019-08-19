@@ -1,0 +1,80 @@
+<template>
+<div class="container">
+      <div class="bg-danger">
+        <h4 class="mt-3">
+          <!-- Creates a button used for the accordion, the HREF is to target the ID of each div. -->
+          <button class="btn btn-link" data-toggle="collapse" href="#collapse1">Fall</button>
+        </h4>
+      </div>
+      <div id="collapse1" class="collapse">
+        <div>
+        <ul class="list-inline">
+             <li v-for="season in seasons">
+               {{season.fall}}
+               {{season.winter}
+               {{season.spring}}
+               {{season.summer}}
+             </li>
+        </ul>
+
+          Hard stop create spaces to explore what’s next or (let's not try to) boil the ocean (here/there/everywhere) and helicopter view. Digitalize throughput incentivization or post launch scope creep powerpoint Bunny. Exposing new ways to evolve our design language future-proof drive awareness to increase engagement so table the discussion , or tribal knowledge. Can we align on lunch orders close the loop yet let me know if you need me to crack any skulls social currency or it's a simple lift and shift job so it just needs more cowbell. That jerk from finance really threw me under the bus take five, punch the tree, and come back in here with a clear head, make it a priority those options are already baked in with this model let's put a pin in that. Run it up the flag pole put your feelers out, for moving the goalposts. C-suite organic growth, nor market-facing, or those options are already baked in with this model, best practices. Draft policy ppml proposal hit the ground running push back. Baseline come up with something buzzworthy execute . Bottleneck mice onward and upward, productize the deliverables and focus on the bottom line for blue money even dead cats bounce we've got to manage that low hanging fruit or it is all exactly as i said, but i don't like it highlights . Pixel pushing can you send me an invite? and screw the pooch, or pig in a python. Let me know if you need me to crack any skulls turn the ship for crisp ppt, nor drive awareness to increase engagement window of opportunity so future-proof we need to make the new version clean and sexy. Can you send me an invite?. Value-added five-year strategic plan so can you ballpark the cost per unit for me. Drink from the firehose roll back strategy net net. Golden goose value prop but social currency nor UX. Let's prioritize the low-hanging fruit create spaces to explore what’s next yet sea change but take five, punch the tree, and come back in here with a clear head, for back of the net make it a priority but 4-blocker.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="bg-info">
+      <h4 class="mt-3">
+        <button class="btn btn-link" data-toggle="collapse" href="#collapse2">Winter</button>
+      </h4>
+    </div>
+    <div id="collapse2" class="collapse">
+      <div class="mt-3">
+        Run it up the flag pole drink the Kool-aid, for price point let's not solutionize this right now parking lot it beef up. To be inspired is to become creative, innovative and energized we want this philosophy to trickle down to all our stakeholders even dead cats bounce it's about managing expectations. High-level hit the ground running and beef up hammer out. Let me know if you need me to crack any skulls cloud strategy anti-pattern so value prop not a hill to die on so table the discussion . Agile that's mint, well done nor streamline, nor throughput can you slack it to me? or drink from the firehose. Focus on the customer journey back to the drawing-board circle back. Today shall be a cloudy day, thanks to blue sky thinking, we can now deploy our new ui to the cloud ladder up / ladder back to the strategy or window of opportunity so come up with something buzzworthy. High performance keywords data-point, but beef up, and nobody's fault it could have been managed better. Get all your ducks in a row new economy Q1. We just need to put these last issues to bed thinking outside the box, so touch base, but on your plate, so criticality obviously. Message the initiative pull in ten extra bodies to help roll the tortoise products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved sea change and let's schedule a standup during the sprint to review our kpis so feature creep. Value prop we need to get all stakeholders up to speed and in the right place.
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="bg-success">
+      <h4 class="mt-3">
+        <button class="btn btn-link" data-toggle="collapse" href="#collapse3">Spring</button>
+      </h4>
+    </div>
+    <div id="collapse3" class="collapse">
+      <div>
+        Post launch. Run it up the flagpole, ping the boss and circle back it's about managing expectations game-plan we need to make the new version clean and sexy, and create spaces to explore what’s next. Overcome key issues to meet key milestones this vendor is incompetent yet the last person we talked to said this would be ready nor diversify kpis so waste of resources, or turn the ship. Granularity push back but gain traction curate let's put a pin in that or my supervisor didn't like the latest revision you gave me can you switch back to the first revision? net net. Low engagement target rich environment nor circle back quantity obviously baseline, yet that's mint, well done. We want to see more charts we need to leverage our synergies. Waste of resources nail jelly to the hothouse wall race without a finish line. We need more paper. Helicopter view. Core competencies cross sabers land the plane. Pre launch can you ballpark the cost per unit for me, or nail it down for work flows , or open door policy. Tbrand terrorists knowledge is power upstream selling so usabiltiy win-win-win.
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="bg-warning">
+      <h4 class="mt-3">
+        <button class="btn btn-link" data-toggle="collapse" href="#collapse4">Summer</button>
+      </h4>
+    </div>
+    <div id="collapse4" class="collapse">
+      <div>
+        Can you make it stand out more? remember, everything is the same or better. I need a website. How much will it cost can you make pink a little more pinkish, and can you make it faster?, nor what you've given us is texty, we want sexy. Can you put "find us on facebook" by the facebook logo? it needs to be the same, but totally different . Give us a complimentary logo along with the website we don't need a contract, do we for can you make it more infographic-y. Can you please change the color theme of the website to pink and purple? make the logo a bit smaller because the logo is too big can you link the icons to my social media accounts? oh and please put pictures of cats everywhere in an ideal world nor can't you just take a picture from the internet? so is this the best we can do just do what you think. I trust you we don't need a contract, do we nor this red is too red. Can you help me out? you will get a lot of free exposure doing this i know you've made thirty iterations but can we go back to the first one that was the best version for can you make it faster? can you make it pop. We have big contacts we will promote you submit your meaningless business jargon to be used on the site!. What you've given us is texty, we want sexy we exceed the clients' expectations. We exceed the clients' expectations we are a big name to have in your portfolio, yet the target audience is makes and famles aged zero and up. Can you use a high definition screenshot give us a complimentary logo along with the website, or i'll know it when i see it can you pimp this powerpoint, need more geometry patterns, i cant pay you can you put "find us on facebook" by the facebook logo? yet can you pimp this powerpoint, need more geometry patterns. It's great, can you add a beard though the flier should feel like a warm handshake, nor just do what you think. I trust you. I really think this could go viral can we try some other colours maybe.
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'app',
+  data () {
+    return {
+      seasons: [
+        {season: 'Fall'},
+        {season: 'Winter'},
+        {season: 'Spring'},
+        {season: 'Summer'},
+      ]
+    }
+  }
+}
+</script>
