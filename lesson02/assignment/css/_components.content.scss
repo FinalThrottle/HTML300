@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+h1 {
+    color: $black;
+//Variable #1. Previously H1 color was a default of $red;.
+}
+
+ul {
+  list-style-type: none;
+}
+//Removes those ugly bullet points that no one likes (I'm sorry bullet point likers).
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-left: 5rem;
+  &_h1 {
+    text-align: center;
+  }
+//To get the whole .main to be centered, and for the H1 text to be center, and under the picture.
+//Nesting #1.
+  &_img {
+    border-radius: 50%;
+    width: 180px;
+    height: auto;
+  }
+//Nesting #2.
+//&_img is nested under .main, and this code will create that rounded picture look from the reference picture.
+}
+
+.section {
+  background-color: $gray;
+//Creates that nice looking gray border, using the variable $gray;. 
+//Variable #2.
+  margin-left: 5rem;
+  width: 550px;
+}

@@ -1,0 +1,74 @@
+body {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*Image sizing needed to match the "card" class sizing. Border radius will help create a rounded image.*/
+img {
+  border-radius: 2em;
+  height: 300px;
+  width: 500px;
+}
+
+.card {
+  background-color: transparent;
+  height: 300px;
+  width: 500px;
+  perspective: 1200px;
+  position: absolute;
+  left: 30%;
+  text-align: center;
+}
+
+/*Coding necessary to create the animation effect that is to be achieved.*/
+.card_transition {
+/*Border radius is used here so that there are no "leftover" backgrounds, this is to blend in with the image.*/
+  border-radius: 2em;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/*Creates that verticle flip for the card.*/
+.card:hover .card_transition {
+  transform: rotateX(180deg);
+}
+
+.card_front, .card_back {
+  border-radius: 2em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card_front {
+  background-color: #ffffff;
+  color: black;
+  cursor: crosshair;
+}
+
+.card_back {
+  text-align: center;
+  background-color: #56b2ea;
+  animation-name: change;
+  animation-duration: 8s;
+  animation-direction: normal;
+  color: white;
+  cursor: crosshair;
+  transform: rotatex(180deg);
+}
+
+/* This is to create that transtion from one color to another. */
+
+@keyframes change {
+from {background-color: #56b2ea;}
+to {background-color: #003366;}
+}
